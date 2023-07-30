@@ -34,7 +34,7 @@ import { ref } from 'vue'
 
 const tabList = ["Alarm.com", "University of Virginia", "HLAB", "Alarm.com"];
 const coreMembers = [  {
-    avatar: 'bai-modified.PNG',
+    avatar: 'bai-modified.png',
     links: [
       { icon: 'github', link: 'https://github.com/BiaDd' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/dan-do-dxd3' }
