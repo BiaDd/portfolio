@@ -38,7 +38,7 @@ const coreMembers = [  {
     links: [
       { icon: 'github', link: 'https://github.com/BiaDd' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/dan-do-dxd3' }
-    ]
+    ],
     title: "Code Monkey"
   }];
 
