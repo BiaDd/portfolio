@@ -7,8 +7,8 @@ hero:
   text: my mom says I'm cool.
   tagline: i do stuff
   image:
-    src: bai-modified.png
-    alt: VitePress
+    src: ./docs/bai-modified.png
+    alt: Cartoon image of Dan
 features:
   - title: Projects 📚
     details: stuff i work on when i'm borded
@@ -34,7 +34,7 @@ import { ref } from 'vue'
 
 const tabList = ["Alarm.com", "University of Virginia", "HLAB", "Alarm.com"];
 const coreMembers = [  {
-    avatar: 'bai-modified.png',
+    avatar: './docs/bai-modified.png',
     links: [
       { icon: 'github', link: 'https://github.com/BiaDd' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/dan-do-dxd3' }
