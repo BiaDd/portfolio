@@ -92,7 +92,7 @@ export default {
     font-size: 1.2rem;
 }
 
-.tabs-.content .content p {
+.tabs.content .content p {
     font-style: italic;
 }
 </style>
