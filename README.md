@@ -1,5 +1,5 @@
 # Dan's portfolio https://onlydan.vercel.app/
-## portfolio site built with Vitpress, Vue, Typescript, CSS, and HTML
+## portfolio site built with Vitepress, Vue, Typescript, CSS, and HTML
 
 - Vitepress: https://vitepress.dev/
 - Vue.js: https://vuejs.org/
