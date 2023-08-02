@@ -51,7 +51,7 @@ export default {
 .tabs_item {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 50px;
     color: var(--vp-button-brand-text);
 }
 
