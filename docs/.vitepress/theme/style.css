@@ -186,6 +186,12 @@ html {
   align-content: center;
 }
 
+@media only screen and (max-width: 1200px) {
+  .punko ,.nihongo {
+    background-image: none !important;
+  }
+}
+
 .punko {
   background-image: url('../../projects/images/huggingface.gif');
   background-repeat: no-repeat;
