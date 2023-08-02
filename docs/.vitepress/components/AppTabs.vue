@@ -57,11 +57,11 @@ export default {
 
 .tabs_item:hover {
     background-color: var(--vp-c-brand-light);
-    border-left: 2px solid green;
+    border-left: 4px solid green;
 }
 
 .tabs_item:hover p {
-    color: white;
+    color: var(--vp-button-brand-active-text);
 }
 
 .tab-label {
@@ -71,11 +71,10 @@ export default {
 
 .selected {
     background-color: var(--vp-c-brand-light);
-    color: red;
 }
 
 .selected p {
-    color: white;
+    color: var(--vp-button-brand-active-text);
 }
 
 .tabs {
