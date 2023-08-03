@@ -202,6 +202,7 @@ html {
 
   .punko, .nihongo {
     background-size: 20% 70% !important;
+    object-fit: cover;
   }
 }
 
