@@ -57,7 +57,7 @@ export default {
 
 .tabs_item:hover {
     background-color: var(--vp-c-brand-light);
-    border-left: 4px solid green;
+    border-left: 4px solid var(--vp-button-brand-active-text);
 }
 
 .tabs_item:hover p {
