@@ -4,20 +4,20 @@ layout: home
 
 hero:
   name: Dan Do
-  text: my mom says I'm cool.
-  tagline: i do stuff
+  text: Software Developer.
+  tagline: Fueling Innovation with Passionate Code and Creativity.
   image:
     src: /bai-modified.png
     alt: Cartoon image of Dan
 features:
   - title: Projects 📚
-    details: stuff i work on when i'm borded
+    details: Interesting Ideas that I've worked on.
     link: "#projects"
   - title: About 👺
-    details: some things about me
+    details: Information about me!
     link: "#about"
   - title: Experience 🔥
-    details: what I've done so far
+    details: My professional experience.
     link: "#experience"
 ---
 
@@ -40,7 +40,7 @@ const coreMembers = [  {
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/dan-do-dxd3' }
     ],
     name: "Dan Do",
-    title: "Code Monkey"
+    title: "Software Developer"
   }];
 
 const count = ref(0)
@@ -51,7 +51,7 @@ const count = ref(0)
   <VPTeamPage>
     <VPTeamPageTitle>
       <template #title>About Me</template>
-      <template #lead>Just some kid that knows a little bit of coding. I like making beats and listening to jazz in my free time. Omlettes and egg fried rice are my best dishes but I also enjoy baking. I like to think of myself as a pro gamer but I'm kind of bad at videogames.</template>
+      <template #lead>I like making beats and listening to jazz in my free time. Omlettes and egg fried rice are my best dishes but I also enjoy baking. I like to think of myself as a pro gamer but I'm kind of bad at videogames.</template>
     </VPTeamPageTitle>
     <VPTeamMembers size="medium" :members="coreMembers" />
   </VPTeamPage>
