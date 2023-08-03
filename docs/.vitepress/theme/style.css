@@ -187,22 +187,35 @@ html {
 }
 
 @media only screen and (max-width: 1200px) {
-  .punko ,.nihongo {
+
+  .punko,
+  .nihongo {
     background-image: none !important;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  .custom-layout,
+  .custom-card {
+    height: 1000px !important;
+  }
+
+  .punko, .nihongo {
+    background-size: 40% 70%;
   }
 }
 
 .punko {
   background-image: url('../../projects/images/huggingface.gif');
   background-repeat: no-repeat;
-  background-attachment:local;
+  background-attachment: local;
   background-size: 30% 100%;
 }
 
 .nihongo {
   background-image: url('../../projects/images/nihongo-multiple.png');
   background-repeat: no-repeat;
-  background-attachment:local;
+  background-attachment: local;
   background-size: 40% 100%;
 }
 
@@ -243,6 +256,6 @@ html {
   padding: 6px;
 }
 
-.profile { 
+.profile {
   border-style: solid;
 }
