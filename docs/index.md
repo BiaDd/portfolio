@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Contact Me
-      link: /guide/what-is-vitepress
+      link: "#contact"
     - theme: alt
       text: Resume
       link: https://github.com/vuejs/vitepress
@@ -125,6 +125,17 @@ const count = ref(0)
     <div class='button-section'>
       <a href="https://github.com/BiaDd/react-quiz" target="_blank" class="btn">Github</a>
       <a href="https://nihongo-quiz.vercel.app/" target="_blank" class="btn-disabled"><p>Demo</p></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section" name="contact" id="contact">
+  <h1 class="section-title">Contact</h1>
+  <div class="custom-layout contact">
+    <p>Send me a message about anything</p>
+    <div class='contact-button'>
+      <a href="mailto: dannxd3@gmail.com" target="_blank" class="btn">Say Hello</a>
     </div>
   </div>
 </div>

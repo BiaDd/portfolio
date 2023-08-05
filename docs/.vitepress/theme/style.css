@@ -271,3 +271,8 @@ html {
 .profile {
   border-style: solid;
 }
+
+.contact {
+  justify-content: center;
+  align-items: center;
+}
