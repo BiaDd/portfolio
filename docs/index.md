@@ -9,6 +9,13 @@ hero:
   image:
     src: /bai-modified.png
     alt: Cartoon image of Dan
+  actions:
+    - theme: brand
+      text: Contact Me
+      link: /guide/what-is-vitepress
+    - theme: alt
+      text: Resume
+      link: https://github.com/vuejs/vitepress
 features:
   - title: Projects 📚
     details: Interesting Ideas that I've worked on.
@@ -34,7 +41,7 @@ import { ref } from 'vue'
 
 const tabList = ["Alarm.com", "University of Virginia", "HLAB", "Alarm.com"];
 const coreMembers = [  {
-    avatar: '/bai-modified.png',
+    avatar: '/real-photo.png',
     links: [
       { icon: 'github', link: 'https://github.com/BiaDd' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/dan-do-dxd3' }
