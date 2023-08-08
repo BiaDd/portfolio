@@ -40,7 +40,7 @@ export default defineConfig({
 
     footer: {
       message: 'Built with Vitepress and Vue',
-      copyright: 'Copyright © 2023-present Dan Do'
+      copyright: ''
     }
 
   }
