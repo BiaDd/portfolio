@@ -36,6 +36,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/BiaDd' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/dan-do-dxd3' }
-    ]
+    ],
+
+    footer: {
+      message: 'Built with Vitepress and Vue',
+      copyright: 'Copyright © 2023-present Dan Do'
+    }
+
   }
 })
