@@ -276,3 +276,12 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.tech-stack span {
+  width: 10px;
+  margin: 0.5rem;
+  padding: 5px 10px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: rgba(160, 170, 180, 0.6) 0px 2px 5px;
+}

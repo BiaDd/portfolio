@@ -112,6 +112,11 @@ const count = ref(0)
   <h1 class="section-title">Featured Projects</h1>
   <div class="custom-layout punko">
     <a href="projects/punko"><h2>Punko 💩</h2></a>
+    <div class="tech-stack">
+      <span>Python</span>
+      <span>Flask</span>
+      <span>Huggingface</span>
+    </div>
     <p>AI discord chatbot with customized models built off of Microsoft DialoGPT and Stable-Diffusion</p>
     <div class='button-section'>
       <a href="https://github.com/BiaDd/Punko" target="_blank" class="btn">Github</a>
@@ -121,7 +126,11 @@ const count = ref(0)
 
   <div class="custom-layout nihongo">
     <a href="projects/nihongo-quiz"><h2>Nihongo-quiz 📖</h2></a>
-    <p>Japanese studying app built with React.JS.</p>
+    <div class="tech-stack">
+      <span>React</span>
+      <span>Bootstrap</span>
+    </div>
+    <p>Japanese studying app for remembering vocabulary and grammar structure.</p>
     <div class='button-section'>
       <a href="https://github.com/BiaDd/react-quiz" target="_blank" class="btn">Github</a>
       <a href="https://nihongo-quiz.vercel.app/" target="_blank" class="btn-disabled"><p>Demo</p></a>
