@@ -111,7 +111,7 @@ const count = ref(0)
 <div class="section" name="projects" id="projects">
   <h1 class="section-title">Featured Projects</h1>
   <div class="custom-layout punko">
-    <a href="projects/punko"><h2>Punko 💩</h2></a>
+    <a class="project-link" href="projects/punko"><h2>Punko 💩</h2></a>
     <div class="tech-stack">
       <span>Python</span>
       <span>Flask</span>
@@ -125,7 +125,7 @@ const count = ref(0)
   </div>
 
   <div class="custom-layout nihongo">
-    <a href="projects/nihongo-quiz"><h2>Nihongo-quiz 📖</h2></a>
+    <a class="project-link" href="projects/nihongo-quiz"><h2>Nihongo-quiz 📖</h2></a>
     <div class="tech-stack">
       <span>React</span>
       <span>Bootstrap</span>

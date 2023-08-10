@@ -199,6 +199,10 @@ html {
   content: "->";
 }
 
+.project-link:hover {
+  box-shadow: none;
+}
+
 .custom-layout .btn {
   display: flex;
   background-color: var(--vp-button-brand-bg);
@@ -240,6 +244,10 @@ html {
   border-color: var(--vp-c-brand);
   margin-left: 10px;
   justify-content: center;
+}
+
+a:hover {
+  box-shadow: rgba(160, 170, 180, 0.6) 0px 2px 5px;
 }
 
 .custom-layout .btn:hover {
