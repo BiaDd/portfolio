@@ -8,14 +8,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Projects', link: '/projects/punko.md' },
-      { text: 'Resume', link: '/stuff.md' }
+      { text: 'Contact Me', link: 'mailto: dannxd3@gmail.com', target: "_blank" }
     ],
 
     sidebar: [
-      {
-        text: 'About Me',
-        items: [{ text: 'Resume', link: '/markdown-examples' }]
-      },
       {
         text: 'Projects',
         items: [

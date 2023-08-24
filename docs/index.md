@@ -13,9 +13,6 @@ hero:
     - theme: brand
       text: Contact Me
       link: "#contact"
-    - theme: alt
-      text: Resume
-      link: https://github.com/vuejs/vitepress
 features:
   - title: Projects 📚
     details: Interesting Ideas that I've worked on.
@@ -73,9 +70,9 @@ const count = ref(0)
         <h2>Full-Stack Software Engineer @ Alarm.com</h2>
         <p>- March 2023 - Present</p>
         <ul class="job-content">
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>Collaborated on 6 full-stack Ember.js WebViews for Alarm’s native applications</li>
+          <li>Remodeled customer device settings website architecture to achieve a 15% reduction in load time</li>
+          <li>Created shared utilities for C# Unit tests and front-end Mirage acceptance tests</li>
         </ul>
       </template>
       <template v-slot:tabPanel-2>
