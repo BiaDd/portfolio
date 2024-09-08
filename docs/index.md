@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Dan Do
   text: Software Developer.
-  tagline: Fueling Innovation with Passionate Code and Creativity.
+  tagline: Fueling Innovation with Passion and Creativity.
   image:
     src: /bai-modified.png
     alt: Cartoon image of Dan
